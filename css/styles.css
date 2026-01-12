@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/Sweets_BG.jpg');
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgba(244, 45, 255, 0.95);
+    color: white;
+    border-left: white 10px solid;
+    border-right: white 10px solid;
+    border-radius: 25px;
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table {
+    margin: 0 auto;
+    border: 10px solid rgba(248, 115, 255, 0.95);
+    border-radius: 10px;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 50px;
+    color: rgba(0, 91, 96, 0.9);
+    font-size: 1.1em;
+}
+
+table .table-header-extra-space {
+    padding: 0 15px;
+}
+
+table .width-10 {
+    width: 10%;
+}
+
+table .width-15 {
+    width: 15%;
+}
+
+table .width-20 {
+    width: 20%;
+}
+
+table .width-30 {
+    width: 30%;
+}
+
+table .width-55 {
+    width: 55%;
+}
+
+tr, th, td {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+/* Colors for table rows */
+table .table-pink {
+    background-color: #FFC0CB;
+}
+
+table .table-cyan {
+    background-color: #E0FFFF;
+}
+table .table-cyan.menu-section {
+    background-color: #87e3e3;
+}
+
+table .table-green {
+    background-color: #c3f8c3;
+}
+table .table-green.menu-section {
+    background-color: #93f993;
+}
+
+table .table-blue {
+    background-color: #c7e2eb;
+}
+table .table-blue.menu-section {
+    background-color: #ADD8E6;
+}
+
+table .table-purple {
+    background-color: #E6E6FA;
+}table .table-purple.menu-section {
+    background-color: #c1c1ed;
+}
+
+table .table-yellow {
+    background-color: #FFFFE0;
+}
+table .table-yellow.menu-section {
+    background-color: #fffda1;
+}
+
+#special-offers {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #f21111;
+    border-top: red 10px solid;
+    border-bottom: red 10px solid;
+    border-left: rgba(20, 168, 9, 0.9) 10px solid;
+    border-right: rgba(20, 168, 9, 0.9) 10px solid;
+    border-radius: 15px;
+    width: 30%;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+#special-offers h2 {
+    font-size: 2em;
+    margin: 10px;
+}
+
+#special-offers h3 {
+    color: rgba(20, 168, 9, 0.9);
+}
+
+span {
+    font-weight: normal;
+}
+
+#img-bell {
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    z-index: 1000;
+}
+
+#img-border {
+    position: absolute;
+    top: 136%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 37%;
+    height: 185px;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(114, 8, 168, 0.95);
+    color: white;
+    width: 100%;
+    padding: 1px 0;
+}
+
+h2 {
+    font-size: 3em;
+    margin: 10px;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    width: 100px;
+    margin: 5px 15px;
+    display: inline-block;
+}
+
+a:hover {
+    color: rgb(250, 155, 255);
+}
+
+#details-container {
+    position: absolute;
+    top: 150px;
+    right: 10px;
+    width: 450px;
+    border: 10px red solid;
+}
+
+#details {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 91, 96, 0.9);
+    border: rgb(255, 255, 120) 10px solid;
+    border-radius: 15px;
+    width: 100%;
+    padding: 15px;
+    font-size: 0.45em;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(114, 8, 168, 0.95);
+    color: white;
+    width: 100%;
+    padding: 1px 0;
+}
